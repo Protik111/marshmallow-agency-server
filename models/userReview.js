@@ -3,8 +3,9 @@ const Schema = mongoose.Schema;
 
 //schema
 const reviews = new Schema({
-    id: Number,
+    id: String,
     nameR: String,
+    emailR: String,
     imgR: String,
     review: String,
 });

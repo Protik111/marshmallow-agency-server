@@ -43,6 +43,13 @@ router.get('/showAllReviews', (req, res) => {
     })
 })
 
+//showing specific reviews for user
+router.get('/showReview', (req, res) => {
+    AllReviews.find({emailR: req.query.email}, (err, documents) => {
+        res.send(documents);
+    })
+})
+
 
 //exports
 module.exports = router;

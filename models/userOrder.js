@@ -7,7 +7,7 @@ const orders = new Schema({
     email: String,
     phone: String,
     orderName: String,
-    descripton: String,
+    description: String,
 });
 
 //model
