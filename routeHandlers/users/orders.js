@@ -30,6 +30,16 @@ router.post('/addOrder', (req, res) => {
     });
 });
 
+
+//deleting order for a user
+router.delete('/deleteOrder/:id', (req, res) => {
+    // console.log(req.params.id);
+    AllOrders.deleteOne({_id : req.params.id})
+    .then(result => {
+        console.log(result);
+    })
+})
+
 //showing all orders for specific order
 router.get('/showAllOrders', (req, res) => {
     // console.log(req.headers.authorization);
