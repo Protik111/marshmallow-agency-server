@@ -72,6 +72,13 @@ router.get('/showReview', (req, res) => {
         res.send(documents);
     })
 })
+//deleting review by user id
+router.delete('/deleteReview/:id', (req, res) => {
+    AllReviews.deleteOne({_id: req.params.id})
+    .then(res => {
+        console.log(res);
+    })
+})
 
 
 //exports

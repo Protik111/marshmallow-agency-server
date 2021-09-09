@@ -36,7 +36,7 @@ router.delete('/deleteOrder/:id', (req, res) => {
     // console.log(req.params.id);
     AllOrders.deleteOne({_id : req.params.id})
     .then(result => {
-        console.log(result);
+        // console.log(result);
     })
 })
 

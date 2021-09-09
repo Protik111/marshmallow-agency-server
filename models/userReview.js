@@ -6,7 +6,9 @@ const reviews = new Schema({
     id: String,
     nameR: String,
     emailR: String,
-    imgR: String,
+    imgR: {
+        type: String
+    },
     review: String,
 });
 
