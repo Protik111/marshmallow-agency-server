@@ -40,5 +40,5 @@ app.use('/user', userRouteHandler);
 app.use('/user', userRouteHandlerR);
 
 app.listen(port, () => {
-    console.log(`listening to port  ${port}`);
+    console.log(`listening to port ${process.env.PORT} || ${port}`);
 })
