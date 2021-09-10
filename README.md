@@ -1,7 +1,7 @@
 # Marshmallow Agency
 
 It is an agency website, which serves some services like **Saving Strategy, Design And Development, Integrated Marketing, Digital Strategy** etc.
-In this website, two types of people can log in or sign up here. One is admin and another is user. One cannot go the dashboard page without login. After login user/admin can see his/her dashboard.
+In this website, two types of people can log in or sign up here. One is admin and another is user. One cannot go to the dashboard page without login. After login user/admin can see his/her dashboard.
 All the facilities of this web application are listed here:
 
 - User can sign up/login with email and password and google sign in alternatively.
