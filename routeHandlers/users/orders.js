@@ -4,12 +4,12 @@ const admin = require('firebase-admin');
 const AllOrders = require('../../models/userOrder');
 
 
-const serviceAccount = require("../../marshmallow-agency-firebase-adminsdk-9qp56-48a5ba5130.json");
+// const serviceAccount = require("../../marshmallow-agency-firebase-adminsdk-9qp56-48a5ba5130.json");
 
-admin.initializeApp({
-    credential: admin.credential.cert(serviceAccount),
-    databaseURL: 'https://marshmallow-agency.firebaseio.com'
-});
+// admin.initializeApp({
+//     credential: admin.credential.cert(serviceAccount),
+//     databaseURL: 'https://marshmallow-agency.firebaseio.com'
+// });
 
 
 //creating a order
