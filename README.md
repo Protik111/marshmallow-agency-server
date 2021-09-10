@@ -33,4 +33,4 @@ All the facilities of this web application are listed here:
 
 ## Live Link: (https://marshmallow-agency.web.app/)
 
-You can visit Client Repository [Marshmallow Agency Client](https://github.com/Protik111/marshmallow-agency-client)
+You can visit client repository [Marshmallow Agency Client](https://github.com/Protik111/marshmallow-agency-client)
